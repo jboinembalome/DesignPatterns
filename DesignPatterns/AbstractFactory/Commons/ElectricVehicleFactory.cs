@@ -7,8 +7,8 @@ namespace AbstractFactory.Commons;
 public class ElectricVehicleFactory : IVehicleFactory
 {
     public Car CreateCar(string model, string colour, int power, double space)
-        => new CarElectricity(model, colour, power, space);
+        => new ElectricityCar(model, colour, power, space);
 
     public Scooter CreateScooter(string model, string colour, int power)
-        => new ScooterElectricity(model, colour, power);
+        => new ElectricityScooter(model, colour, power);
 }
