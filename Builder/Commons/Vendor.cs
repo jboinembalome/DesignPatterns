@@ -10,7 +10,7 @@ internal class Vendor
 
     public Bundle? Build(string clientName)
     {
-        _builder.BuildOrderForm(clientName);
+        _builder.BuildPurchaseOrder(clientName);
         _builder.BuildApplicationRegistration(clientName);
 
         Bundle? bundle = _builder.Result();

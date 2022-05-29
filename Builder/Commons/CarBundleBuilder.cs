@@ -6,7 +6,7 @@ internal abstract class CarBundleBuilder
 {
     protected Bundle? Bundle { get; set; }
 
-    public abstract void BuildOrderForm(string clientName);
+    public abstract void BuildPurchaseOrder(string clientName);
 
     public abstract void BuildApplicationRegistration(string applicantName);
 

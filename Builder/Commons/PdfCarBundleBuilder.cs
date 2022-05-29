@@ -6,9 +6,9 @@ internal class PdfCarBundleBuilder : CarBundleBuilder
 {
     public PdfCarBundleBuilder() => Bundle = new PdfBundle();
 
-    public override void BuildOrderForm(string clientName) 
+    public override void BuildPurchaseOrder(string clientName) 
     {
-        var document = $"<PDF>Order form client: {clientName}</PDF>";
+        var document = $"<PDF>Purchase order from the client: {clientName}</PDF>";
         Bundle!.AddDocument(document);
     }
 

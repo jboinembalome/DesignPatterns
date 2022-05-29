@@ -6,9 +6,9 @@ internal class HtmlCarBundleBuilder : CarBundleBuilder
 {
     public HtmlCarBundleBuilder() => Bundle = new HtmlBundle();
 
-    public override void BuildOrderForm(string clientName) 
+    public override void BuildPurchaseOrder(string clientName) 
     {
-        var document = $"<HTML>Order form client: {clientName}</HTML>";
+        var document = $"<HTML>Purchase order from the client: {clientName}</HTML>";
         Bundle!.AddDocument(document);
     }
 
