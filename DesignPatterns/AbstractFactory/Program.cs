@@ -4,7 +4,7 @@ using AbstractFactory.Interfaces;
 using AbstractFactory.Models.Cars;
 using AbstractFactory.Models.Scooters;
 
-#region Private Fields
+#region Fields
 const int NUMBER_OF_CARS = 3;
 const int NUMBER_OF_SCOOTERS = 2;
 var cars = new Car[NUMBER_OF_CARS];
@@ -41,7 +41,7 @@ foreach (var car in cars)
 foreach (var scooter in scooters)
     scooter.ShowCharacteristics();
 
-#region Private Functions
+#region Functions
 static IVehicleFactory? CreateFactory(string? choice) => choice switch
 {
     "1" => new ElectricVehicleFactory(),

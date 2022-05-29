@@ -8,13 +8,13 @@ internal class PdfCarBundleBuilder : CarBundleBuilder
 
     public override void BuildOrderForm(string clientName) 
     {
-        string document = $"<PDF>Order form client: {clientName}</PDF>";
+        var document = $"<PDF>Order form client: {clientName}</PDF>";
         Bundle!.AddDocument(document);
     }
 
     public override void BuildApplicationRegistration(string applicantName)
     {
-        string document = $"<PDF>Application registration applicant: {applicantName}</PDF>";
+        var document = $"<PDF>Application registration applicant: {applicantName}</PDF>";
         Bundle!.AddDocument(document);
     }
 }
