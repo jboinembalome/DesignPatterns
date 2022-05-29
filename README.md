@@ -8,6 +8,9 @@ In order to facilitate the understanding of the code, each design pattern is sep
 
 ## List of design patterns includes
 - **Abstract Factory**
+- **Builder**
+- **Factory Method**
+- **Prototype**
 
 ## Give a Star! :star:
 If you like or are using this project please give it a star. Thanks!
