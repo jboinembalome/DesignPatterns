@@ -2,7 +2,7 @@ using AbstractFactory.Interfaces;
 
 namespace AbstractFactory.Models.Scooters;
 
-public abstract class Scooter : IVehicle
+internal abstract class Scooter : IVehicle
 {
     protected string Model { get; set; }
     protected string Colour { get; set; }

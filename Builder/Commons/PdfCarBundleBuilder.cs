@@ -2,7 +2,7 @@
 
 namespace Builder.Commons;
 
-public class PdfCarBundleBuilder : CarBundleBuilder
+internal class PdfCarBundleBuilder : CarBundleBuilder
 {
     public PdfCarBundleBuilder() => bundle = new PdfBundle();
 

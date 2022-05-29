@@ -4,7 +4,7 @@ using AbstractFactory.Models.Scooters;
 
 namespace AbstractFactory.Commons;
 
-public class ElectricVehicleFactory : IVehicleFactory
+internal class ElectricVehicleFactory : IVehicleFactory
 {
     public Car CreateCar(string model, string colour, int power, double space)
         => new ElectricityCar(model, colour, power, space);

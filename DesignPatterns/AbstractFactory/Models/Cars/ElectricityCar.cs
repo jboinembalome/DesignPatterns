@@ -1,6 +1,6 @@
 namespace AbstractFactory.Models.Cars;
 
-public class ElectricityCar : Car
+internal class ElectricityCar : Car
 {
     public ElectricityCar(string model, string colour, int power, double space)
         : base(model, colour, power, space)

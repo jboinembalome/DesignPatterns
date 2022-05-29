@@ -1,6 +1,6 @@
 ﻿namespace Builder.Models;
 
-public abstract class Bundle
+internal abstract class Bundle
 {
     protected IList<string> content = new List<string>();
 

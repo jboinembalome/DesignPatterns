@@ -1,6 +1,6 @@
 ﻿namespace Builder.Models;
 
-public class PdfBundle : Bundle
+internal class PdfBundle : Bundle
 {
     public override void AddDocument(string document)
     {

@@ -3,7 +3,7 @@ using AbstractFactory.Models.Scooters;
 
 namespace AbstractFactory.Interfaces;
 
-public interface IVehicleFactory
+internal interface IVehicleFactory
 {
     /// <summary>
     /// Create a car.

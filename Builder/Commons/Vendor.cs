@@ -2,7 +2,7 @@
 
 namespace Builder.Commons;
 
-public class Vendor
+internal class Vendor
 {
     protected CarBundleBuilder _builder;
 

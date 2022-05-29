@@ -1,6 +1,6 @@
 namespace AbstractFactory.Interfaces;
 
-public interface IVehicle
+internal interface IVehicle
 {
     /// <summary>
     /// Show all the characteristics of the vehicle.

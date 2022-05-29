@@ -1,6 +1,6 @@
 namespace AbstractFactory.Models.Scooters;
 
-public class ElectricityScooter : Scooter
+internal class ElectricityScooter : Scooter
 {
     public ElectricityScooter(string model, string colour, int power)
         : base(model, colour, power)

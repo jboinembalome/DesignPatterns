@@ -1,6 +1,6 @@
 ﻿namespace Builder.Models;
 
-public class HtmlBundle : Bundle
+internal class HtmlBundle : Bundle
 {
     public override void AddDocument(string document)
     {

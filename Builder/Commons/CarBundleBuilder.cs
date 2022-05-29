@@ -2,7 +2,7 @@
 
 namespace Builder.Commons;
 
-public abstract class CarBundleBuilder
+internal abstract class CarBundleBuilder
 {
     protected Bundle? bundle;
 
