@@ -4,13 +4,13 @@ namespace Builder.Commons;
 
 internal abstract class CarBundleBuilder
 {
-    protected Bundle? bundle;
+    protected Bundle? Bundle { get; set; }
 
     public abstract void BuildOrderForm(string clientName);
 
     public abstract void BuildApplicationRegistration(string applicantName);
 
-    public Bundle? GetBundle() => bundle;
+    public Bundle? GetBundle() => Bundle;
 
-    public Bundle? Result() => bundle;
+    public Bundle? Result() => Bundle;
 }

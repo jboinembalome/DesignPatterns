@@ -4,19 +4,19 @@ namespace Builder.Commons;
 
 internal class Vendor
 {
-    protected CarBundleBuilder _builder;
+    protected CarBundleBuilder Builder { get; set; }
 
     public Vendor(CarBundleBuilder builder)
     {
-        _builder = builder;
+        Builder = builder;
     }
 
     public Bundle? Build(string clientName)
     {
-        _builder.BuildOrderForm(clientName);
-        _builder.BuildApplicationRegistration(clientName);
+        Builder.BuildOrderForm(clientName);
+        Builder.BuildApplicationRegistration(clientName);
 
-        Bundle? bundle = _builder.Result();
+        Bundle? bundle = Builder.Result();
         return bundle;
     }
 }

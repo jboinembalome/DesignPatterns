@@ -2,7 +2,7 @@
 
 internal abstract class Bundle
 {
-    protected IList<string> content = new List<string>();
+    protected IList<string> Content { get; set; } = new List<string>();
 
     public abstract void AddDocument(string document);
     public abstract void Print();

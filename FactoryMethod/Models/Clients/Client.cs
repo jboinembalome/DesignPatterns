@@ -4,7 +4,7 @@ namespace FactoryMethod.Models.Clients;
 
 internal abstract class Client
 {
-    public IList<Command> Commands { get; set; } = new List<Command>();
+    protected IList<Command> Commands { get; set; } = new List<Command>();
 
     protected abstract Command CreateCommand(double amount);
 

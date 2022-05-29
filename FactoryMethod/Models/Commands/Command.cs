@@ -2,7 +2,7 @@
 
 internal abstract class Command
 {
-    public double Amount { get; set; }
+    protected double Amount { get; set; }
 
     public Command(double amount) => Amount = amount;
 

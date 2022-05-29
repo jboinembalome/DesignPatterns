@@ -5,13 +5,13 @@ internal class PdfBundle : Bundle
     public override void AddDocument(string document)
     {
         if (document.StartsWith("<PDF>"))
-            content.Add(document);
+            Content.Add(document);
     }
     public override void Print()
     {
         Console.WriteLine("PDF bundle");
 
-        foreach (string s in content)
+        foreach (string s in Content)
             Console.WriteLine(s);
     }
 }
