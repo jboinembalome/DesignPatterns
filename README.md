@@ -12,6 +12,7 @@ In order to facilitate the understanding of the code, each design pattern is sep
 - **Factory Method**
 - **Prototype**
 - **Singleton**
+- **Adapter**
 
 ## Give a Star! :star:
 If you like or are using this project please give it a star. Thanks!
